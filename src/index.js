@@ -1,3 +1,6 @@
-import { soma } from './soma';
+import React from 'react';
+import { render } from 'react-dom';
 
-console.log(soma(1, 8));
+import App from './app';
+
+render(<App />, document.getElementById('app'));
